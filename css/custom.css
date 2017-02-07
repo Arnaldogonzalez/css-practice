@@ -1,0 +1,78 @@
+#logo {
+    color: red;
+
+}
+#above-the-fold {
+    color: white;
+
+}
+
+#above-the-fold .card {
+    background-color: green;
+
+}
+.card button {
+    color: white;
+}
+article p:first-letter {
+    margin-left: 30px;
+}
+
+#blog {
+    background-color: #666;
+    color: #cff;
+}
+#gallery figure:hover{
+    box-shadow: 15px 15px 10px #000;
+}
+
+figcaption {
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+
+}
+
+article h3 {
+    text-align: center;
+
+}
+
+article {
+    margin-top: 40px;
+}
+
+h2  {
+    text-transform: uppercase;
+}
+
+h2:before {
+    content:"**";
+}
+
+.space {
+    margin: 25px;
+    padding: 15px;
+    display: block;
+}
+
+.space:focus {
+  border-color: green;
+  border-width: 5px;
+}
+
+address {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+background-color: rgb(70, 70, 70);
+color: #ffa500;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+    margin-right: 5px;
+}
